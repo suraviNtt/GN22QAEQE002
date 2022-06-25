@@ -1,0 +1,10 @@
+package project_name_yourname_emp_id.reader;
+
+public class FileHelper {
+	
+	
+	public String getBasePath() {
+		return System.getProperty("user.dir");
+	}
+
+}

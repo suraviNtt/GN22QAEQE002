@@ -1,0 +1,26 @@
+package project_name_yourname_emp_id.utilities;
+
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import project_name_yourname_emp_id.reader.PropertiesReader;
+
+public class CommonHandlers {
+
+	WebDriverWait wait;
+	PropertiesReader propReader;
+	
+	public void clickOnElement(WebDriver driver ) {
+		try {
+			propReader = new PropertiesReader();
+			int waitTime = propReader.fetchExplicitWait();
+			wait = new WebDriverWait(driver, Duration.ofSeconds(waitTime));
+			
+			
+		}catch (Exception e) {
+			
+		}
+	}
+}

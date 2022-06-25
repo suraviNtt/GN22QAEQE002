@@ -1,0 +1,19 @@
+package project_name_yourname_emp_id.reader;
+
+public class FileHelper {
+	
+	
+	public static String getBasePath() {
+		return System.getProperty("user.dir");
+	}
+
+	public String getMainResourcseConfig() {
+		return getBasePath() ;
+	}
+
+	public static void main(String[] args) {
+		String s = getBasePath();
+		
+		System.out.println();
+	}
+}

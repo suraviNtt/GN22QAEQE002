@@ -1,0 +1,12 @@
+package project_name_yourname_emp_id.reader;
+
+import java.security.DomainCombiner;
+import java.util.Properties;
+
+public class PropertiesReader {
+
+	
+	public static void main(String[] args) {
+		Properties
+	}
+}

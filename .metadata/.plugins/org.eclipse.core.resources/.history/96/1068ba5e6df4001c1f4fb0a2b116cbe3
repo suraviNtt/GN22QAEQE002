@@ -1,0 +1,21 @@
+package project_name_yourname_emp_id.utilities;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import project_name_yourname_emp_id.reader.PropertiesReader;
+
+public class CommonHandlers {
+
+	WebDriverWait wait;
+	PropertiesReader propReader;
+	
+	public void clickOnElement(WebDriver driver ) {
+		try {
+			wait = new Expl
+			
+		}catch (Exception e) {
+			
+		}
+	}
+}
